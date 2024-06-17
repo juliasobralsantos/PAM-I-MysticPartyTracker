@@ -39,7 +39,7 @@ namespace MysticPartyTracker.ViewModels
 
         public void Criar()
         {
-            Character character = new Character(NomePersonagem, ClassePersonagem, RacaPersonagem, NivelPersonagem);
+            Character character = new Character(_nomePersonagem, _classePersonagem, _racaPersonagem, _nivelPersonagem);
             Characters.Add(character);
         }
     }
